@@ -1,0 +1,32 @@
+=========================
+REFLECTIONS 1
+=========================
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+-----------------------------------------------------------------------------------------------
+define:: diff command is used to find the difference between two files::
+diff -u oldfile newfile
+here the changes in new file are refered with + sign and the changes with - sign are shown with + sign
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=========================
+REFLECTIONS 2
+=========================
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Dropbox:: It periodically stores the versions of the files.This VC is used to store a log of records of various changes made in files.
+It keeps the differnences between new files and old files only for 30 days .
+Google Docs:: It keeps all the changes in the drive. And we can restore the changes at any point of time.
+Wikipedia:: There is a view history tab that is lists the old versions.
+
+Answer to the above question::
+Having easy access to the entire history of a file make you a more efficient programmer. 
+When I read the word history, a series of historical events started to roll in my mind like a film reel, some related to the world such as independence movements, World Wars, First Man to moon mission etc, some related to our personal lives like our birth date, our first day to school, college events, party at friend's place and stuffs.
+Why do we as humans keep a record of these events, anyways? Why do we have to call for an encore of thoughts more often?
+This is a really profound question that deserves an answer. As a human(trying to create a social environment, of course not?), I am pretty bad in remembering stuffs, I know we trust human brain more than anything else to remember things and to do stuffs that even a super computer or Cortana would have failed to do.
+ Moreover it is one of the most marvellous things God would have created. But since I am not Professor X from X-Men Series nor I am planning to be, I am a simple human being carving out ways to lead a happy and normal life. I want to have something as a diary or a log of records that would help me remember things, help me learn from my history and improve my present and thus the future, help me to store the date of events as a memory and as a reminder to the next periodic event that would be happening.
+ Of course this is not a tough thing for us, provided we have little to remember what we want to. 
+But is it really that way? Do we really owe a small packet of information about our lives? 
+No, we don't! We generate terabytes and petabytes of information every second, and we dont know exactly when it happened and how it happened.
+ Scary is n't it? Anyways thanks to the version control systems to offer support and resolving the issues at hand. I am glad that we dont have to stress on memorising Big Data, not we have got to do any paperwork or marking on calendars!
+Through version controls one can have easy access to not only the content of files but also how the content got edited, when it got edited, who edited it, how many contribute to the content managing, how were complex updates managed and stuffs related.
+So here in this course by udacity.com, I'll be learning how to manage my life events on internet. Won't you be joining me? 
