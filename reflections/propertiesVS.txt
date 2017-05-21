@@ -1,0 +1,44 @@
+Properties of Version Control Systems
+-------------------------------------
+1.) ANY EDITOR::
+Manual Saving : Yes we can as we operate the code manually on editors.
+Dropbox: Though dropbox do not provide the syntax highlighters but does uses editors
+Wikipedia: Not designed for any code hence do not use editors.
+Google Docs: Not designed for any code hence do not use editors, 
+-------------------------------------
+
+2.) USE OFFLINE:
+Manual Saving:Manual saving is the only option that we can use offline.
+Dropbox: Here we can edit the files on the computer but we cannot see the history online.
+Google Docs: It works only for the special purpose editors and we can access the history of the files
+Wikipedia:Does not save any file on our computer so cant be used offline
+
+3.) MANUAL SAVING
+Manual Saving: Manual Saving clearly requires us to manually save
+Wikipedia:Also requires this 
+Dropbox and Google Docs: Save versions for us whether or not we manually save.
+Git: it uses manual save allowing users to create manual checkpoints.Each and every version in Git reflects as a logical change
+=========================================================================
+COMMITS::
+Commits are the user created building blocks of git!Each one representing the version of the content at one point in time.
+Git requires to suply commit message each time the commmit is created.
+-fix off by-one bug
+-add cool new features
+-improve user docs
+=========================================================================
+
+As a programmer when would you want to have a version of your code saved?
+Option1:)At regular intervals of time?
+Option2:)Whenever there a large enough change is made(50 hours)
+Option3:)Whenever there is long pause in the editing
+Option4:)When you choose to save a version.
+
+Answer(Sarah's (instructor) thoughts)
+Option 1:Here it looks not logical since it might be possible that some of the lines get edited in between the new checkpoint started. It might give a granular result but since it is the only reason, so it is not a better option
+
+Option2:)It just like the above case, we might want to change only 3 lines and then leave it for a week, waiting for 50 lines and then save it might not occur in the entire process of maintenance. So it is also not a good option.
+
+Option 3:) It does sound promising, since it saves the changes only when there are enough changes to be saved.
+
+Optiin4:)Flexible but has a downside too!
+==========================================================================
