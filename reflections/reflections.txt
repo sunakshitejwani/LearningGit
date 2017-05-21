@@ -30,3 +30,19 @@ No, we don't! We generate terabytes and petabytes of information every second, a
  Scary is n't it? Anyways thanks to the version control systems to offer support and resolving the issues at hand. I am glad that we dont have to stress on memorising Big Data, not we have got to do any paperwork or marking on calendars!
 Through version controls one can have easy access to not only the content of files but also how the content got edited, when it got edited, who edited it, how many contribute to the content managing, how were complex updates managed and stuffs related.
 So here in this course by udacity.com, I'll be learning how to manage my life events on internet. Won't you be joining me? 
+=============================================================================================================================
+
+
+
+++++++++++++++++++++++++++++++++
+REFLECTIONS 3
+++++++++++++++++++++++++++++++++
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+ANSWER::
+Pros:
+* You can commit whenever you want.
+* Granularity is at committer's disposal.
+
+Cons:
+* You may forget to commit when you should do it.
+* It can be actually too late when you notice you should have made a commit
