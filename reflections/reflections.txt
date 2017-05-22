@@ -82,3 +82,25 @@ git log shows all the commits, or versions, of my files that I have ever saved (
 git diff: syntax:: git diff oldfile newfile
 To dig deeper into any commit, I can use git diff to compare that commit to the previous commit and see exactly what changes were introduced. 
 this command is used to compare files:: oldfile and newfile by counting the number of insertions and deletions done in the new file 
+
+========================================================================================================
+
++++++++++++++++++++++++++
+REFLECTIONS 6
++++++++++++++++++++++++++
+How might using version control make you more confident to make changes that
+could break something?
+
+If we have previous versions of program stored, then it will easier to change the code, which might break the functionality, or mess the whole thing. We can not only figure out the reasons why the code broke but also anytime switch to previous versions.
+=========================================================================================================
+
+++++++++++++++++++++++++++
+REFLECTIONS 7
+++++++++++++++++++++++++++
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use git to manage the workflow of projects, since git is created by a programmer himself to make things easier to manage.
+Git is also used to keep a track of changes created either while editing doc files. For example: Writing reflections for the course really helps me, to revise everthing I have learned up till now.
+=========================================================================================================
+
+

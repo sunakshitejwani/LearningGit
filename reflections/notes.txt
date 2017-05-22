@@ -4,3 +4,15 @@ Gits commits Across various files
 
 git log --stat::
 to view  clog of commits with addition of lines and deletions lines in the edited files.
+--------------------------------------------------------------------------------------
+
+GIT ERRORS AND WARNINGS
+-----------------------
+Should not be doing an octopus::Octopus is a strategy that Git uses to combine different versions of code together. This message can be used if you use this strategy in an inappropriate condition.
+
+You are in a 'detached head state'::
+HEAD is what Git calls the commit you are currently on. You can "detach" the HEAD by switching to a previous commit. Despite of what it sounds like, it is not a bad thing to detach the HEAD. Git just warns you so that you ll realize what you are doing it.
+
+Panic! The impossible happened::
+This is a real error message, but it is not the output of GIT. Instead it is the output of GHC, the compiler for a programming language called Haskell. It is reserved for particularly surprising errors!
+
