@@ -39,6 +39,14 @@ REFLECTIONS 3
 ++++++++++++++++++++++++++++++++
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
 ANSWER::
+    Having versions saved automatically is less effort on my part.  There is a
+    lower barrier to entry.  However, if versions of my code were saved
+    automatically, there is no guarantee a working version would ever be saved.
+    If I wanted to compare a broken version of my code to a previous working
+    version, I might not actually have a working version.  Finally, when I save
+    versions myself, I can create a meaningful name for each version, which
+    makes the versions a lot easier to navigate.  With autosaved versions, it
+can be difficult to understand what changes are introduced in each version
 Pros:
 * You can commit whenever you want.
 * Granularity is at committer's disposal.
@@ -46,3 +54,31 @@ Pros:
 Cons:
 * You may forget to commit when you should do it.
 * It can be actually too late when you notice you should have made a commit
+
+=========================================================================================================
+
+++++++++++++++++++++++++++++++
+REFLECTION 4
+++++++++++++++++++++++++++++++
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Answer::When files are interdependent, as they often are in code, changing multiple
+    files in each commit makes sense.  A single logical change may touch more
+    than one file, and it would be nice to group the entire change into one
+    commit. When files are independent, tracking them together introduces unnecessary
+    overhead when looking back through the history.  If I changed two unrelated
+    files, then committed the changes together, it would be harder to revert to
+    a previous version of one file without reverting to a previous version of
+    another, which I probably wouldn't want to do.
+
+=========================================================================================================
+
++++++++++++++++++++++++++++++
+REFLECTIONS 5
++++++++++++++++++++++++++++++
+How can you use the commands git log and git diff to view the history of files?
+git log:: It contains a log of records, each having a unique ID and a message describing the type of commit, with author name and email. It is very helpful to view the entire history and the changes done between versions of multiple files.
+git log shows all the commits, or versions, of my files that I have ever saved (or that the person who created the history ever saved). We can get a quick idea of the sorts of changes that have been made.
+
+git diff: syntax:: git diff oldfile newfile
+To dig deeper into any commit, I can use git diff to compare that commit to the previous commit and see exactly what changes were introduced. 
+this command is used to compare files:: oldfile and newfile by counting the number of insertions and deletions done in the new file 

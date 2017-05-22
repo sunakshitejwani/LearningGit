@@ -1,0 +1,6 @@
+=============================================
+Gits commits Across various files
++++++++++++++++++++++++++++++++++++++++++++++
+
+git log --stat::
+to view  clog of commits with addition of lines and deletions lines in the edited files.
