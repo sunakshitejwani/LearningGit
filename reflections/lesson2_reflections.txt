@@ -1,0 +1,6 @@
+--------------------
+REFLECTIONS 1
+--------------------
+What happens when you initialize a repository? Why do you need to do it?
+ Ans::When a new directory is initialised a .git folder is created which contains the metadat about the repository, i.e. data about the the repository. Meta data is not useful for the user, but for keeping record of configure information like user name email password etc.
+It is needed because  An empty repository is created, which contains no commit. It works that way so that it won't automatically include files you actually don't want to keep track of.
