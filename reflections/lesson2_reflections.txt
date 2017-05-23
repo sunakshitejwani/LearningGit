@@ -2,5 +2,12 @@
 REFLECTIONS 1
 --------------------
 What happens when you initialize a repository? Why do you need to do it?
- Ans::When a new directory is initialised a .git folder is created which contains the metadat about the repository, i.e. data about the the repository. Meta data is not useful for the user, but for keeping record of configure information like user name email password etc.
-It is needed because  An empty repository is created, which contains no commit. It works that way so that it won't automatically include files you actually don't want to keep track of.
+ Ans::When a new directory is initialised a .git folder is created which keeps tracks of the versions saved, and alsothe metadata  i.e. data about the the repository. Meta data is not useful for the user, but for keeping record of configure information like user name email password etc.
+It is needed because  An empty repository is created, which contains no commit. It works that way so that it won't automatically include files you actually don't want to keep track of.Creating the repository also lets Git know that I want all the files in this directory to be tracked together, but separately from files in different directories.  If I didn't create the repository, Git could create the directory to save the versions in automatically, but it wouldn't know which files I wanted to track together and which I wanted to track separately.
+=========================================================================================
+
+----------------------
+REFLECTIONS 2
+----------------------
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans.Staging area is a buffer or an intermediate area where we save changes to be committed. Git add command allows to add changes one by one,then commit them all at once, which makes easier to specify which changes should go into each commit. Where as working directory is the permanent file area where all the work is stored locally in our computer.
